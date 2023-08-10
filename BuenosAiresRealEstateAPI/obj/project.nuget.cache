@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4cUL8KOi7oa1WO0ewXsLK3MQfrvKiUxVHfhhkrF9BpKpTB8ePt1TlUAMwRf6C7l1yfQrCIbhtT4A74YQ1T7Z6Q==",
+  "dgSpecHash": "rBVH1FPPNUVHgLKMB2wnTkgtyGPPmrC4RkWB2CslodLtftvUFUg+qIvAbS6aWYB7q3LNLHCqagAyUDS254x8dg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\josem\\source\\Large Projects\\Buenos Aires Real Estate API - Expose\\Buenos Aires Real Estate API\\BuenosAiresRealEstateAPI\\BuenosAiresRealEstateAPI\\BuenosAiresRealEstate.API.csproj",
+  "projectFilePath": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\BuenosAiresRealEstateAPI\\BuenosAiresRealEstate.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josem\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\josem\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

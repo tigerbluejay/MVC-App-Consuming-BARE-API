@@ -1,0 +1,12 @@
+C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsumingBAREAPI.Utilities\bin\Debug\net7.0\MVCAppConsumingBAREAPI.Utilities.deps.json
+C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsumingBAREAPI.Utilities\bin\Debug\net7.0\MVCAppConsumingBAREAPI.Utilities.dll
+C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsumingBAREAPI.Utilities\bin\Debug\net7.0\MVCAppConsumingBAREAPI.Utilities.pdb
+C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsumingBAREAPI.Utilities\obj\Debug\net7.0\MVCAppConsumingBAREAPI.Utilities.csproj.AssemblyReference.cache
+C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsumingBAREAPI.Utilities\obj\Debug\net7.0\MVCAppConsumingBAREAPI.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsumingBAREAPI.Utilities\obj\Debug\net7.0\MVCAppConsumingBAREAPI.Utilities.AssemblyInfoInputs.cache
+C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsumingBAREAPI.Utilities\obj\Debug\net7.0\MVCAppConsumingBAREAPI.Utilities.AssemblyInfo.cs
+C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsumingBAREAPI.Utilities\obj\Debug\net7.0\MVCAppConsumingBAREAPI.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsumingBAREAPI.Utilities\obj\Debug\net7.0\MVCAppConsumingBAREAPI.Utilities.dll
+C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsumingBAREAPI.Utilities\obj\Debug\net7.0\refint\MVCAppConsumingBAREAPI.Utilities.dll
+C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsumingBAREAPI.Utilities\obj\Debug\net7.0\MVCAppConsumingBAREAPI.Utilities.pdb
+C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsumingBAREAPI.Utilities\obj\Debug\net7.0\ref\MVCAppConsumingBAREAPI.Utilities.dll

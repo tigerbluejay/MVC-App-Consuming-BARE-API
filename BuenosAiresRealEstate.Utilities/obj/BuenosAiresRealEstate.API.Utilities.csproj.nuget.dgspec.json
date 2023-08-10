@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josem\\source\\Large Projects\\Buenos Aires Real Estate API - Expose\\Buenos Aires Real Estate API\\BuenosAiresRealEstateAPI\\BuenosAiresRealEstate.Utilities\\BuenosAiresRealEstate.API.Utilities.csproj": {}
+    "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\BuenosAiresRealEstate.Utilities\\BuenosAiresRealEstate.API.Utilities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josem\\source\\Large Projects\\Buenos Aires Real Estate API - Expose\\Buenos Aires Real Estate API\\BuenosAiresRealEstateAPI\\BuenosAiresRealEstate.Data\\BuenosAiresRealEstate.API.Data.csproj": {
+    "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\BuenosAiresRealEstate.Data\\BuenosAiresRealEstate.API.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josem\\source\\Large Projects\\Buenos Aires Real Estate API - Expose\\Buenos Aires Real Estate API\\BuenosAiresRealEstateAPI\\BuenosAiresRealEstate.Data\\BuenosAiresRealEstate.API.Data.csproj",
+        "projectUniqueName": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\BuenosAiresRealEstate.Data\\BuenosAiresRealEstate.API.Data.csproj",
         "projectName": "BuenosAiresRealEstate.API.Data",
-        "projectPath": "C:\\Users\\josem\\source\\Large Projects\\Buenos Aires Real Estate API - Expose\\Buenos Aires Real Estate API\\BuenosAiresRealEstateAPI\\BuenosAiresRealEstate.Data\\BuenosAiresRealEstate.API.Data.csproj",
+        "projectPath": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\BuenosAiresRealEstate.Data\\BuenosAiresRealEstate.API.Data.csproj",
         "packagesPath": "C:\\Users\\josem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josem\\source\\Large Projects\\Buenos Aires Real Estate API - Expose\\Buenos Aires Real Estate API\\BuenosAiresRealEstateAPI\\BuenosAiresRealEstate.Data\\obj\\",
+        "outputPath": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\BuenosAiresRealEstate.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\josem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\josem\\source\\Large Projects\\Buenos Aires Real Estate API - Expose\\Buenos Aires Real Estate API\\BuenosAiresRealEstateAPI\\BuenosAiresRealEstate.Models\\BuenosAiresRealEstate.API.Models.csproj": {
-                "projectPath": "C:\\Users\\josem\\source\\Large Projects\\Buenos Aires Real Estate API - Expose\\Buenos Aires Real Estate API\\BuenosAiresRealEstateAPI\\BuenosAiresRealEstate.Models\\BuenosAiresRealEstate.API.Models.csproj"
+              "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\BuenosAiresRealEstate.Models\\BuenosAiresRealEstate.API.Models.csproj": {
+                "projectPath": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\BuenosAiresRealEstate.Models\\BuenosAiresRealEstate.API.Models.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "C:\\Users\\josem\\source\\Large Projects\\Buenos Aires Real Estate API - Expose\\Buenos Aires Real Estate API\\BuenosAiresRealEstateAPI\\BuenosAiresRealEstate.Models\\BuenosAiresRealEstate.API.Models.csproj": {
+    "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\BuenosAiresRealEstate.Models\\BuenosAiresRealEstate.API.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josem\\source\\Large Projects\\Buenos Aires Real Estate API - Expose\\Buenos Aires Real Estate API\\BuenosAiresRealEstateAPI\\BuenosAiresRealEstate.Models\\BuenosAiresRealEstate.API.Models.csproj",
+        "projectUniqueName": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\BuenosAiresRealEstate.Models\\BuenosAiresRealEstate.API.Models.csproj",
         "projectName": "BuenosAiresRealEstate.API.Models",
-        "projectPath": "C:\\Users\\josem\\source\\Large Projects\\Buenos Aires Real Estate API - Expose\\Buenos Aires Real Estate API\\BuenosAiresRealEstateAPI\\BuenosAiresRealEstate.Models\\BuenosAiresRealEstate.API.Models.csproj",
+        "projectPath": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\BuenosAiresRealEstate.Models\\BuenosAiresRealEstate.API.Models.csproj",
         "packagesPath": "C:\\Users\\josem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josem\\source\\Large Projects\\Buenos Aires Real Estate API - Expose\\Buenos Aires Real Estate API\\BuenosAiresRealEstateAPI\\BuenosAiresRealEstate.Models\\obj\\",
+        "outputPath": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\BuenosAiresRealEstate.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\josem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -138,14 +138,14 @@
         }
       }
     },
-    "C:\\Users\\josem\\source\\Large Projects\\Buenos Aires Real Estate API - Expose\\Buenos Aires Real Estate API\\BuenosAiresRealEstateAPI\\BuenosAiresRealEstate.Utilities\\BuenosAiresRealEstate.API.Utilities.csproj": {
+    "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\BuenosAiresRealEstate.Utilities\\BuenosAiresRealEstate.API.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josem\\source\\Large Projects\\Buenos Aires Real Estate API - Expose\\Buenos Aires Real Estate API\\BuenosAiresRealEstateAPI\\BuenosAiresRealEstate.Utilities\\BuenosAiresRealEstate.API.Utilities.csproj",
+        "projectUniqueName": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\BuenosAiresRealEstate.Utilities\\BuenosAiresRealEstate.API.Utilities.csproj",
         "projectName": "BuenosAiresRealEstate.API.Utilities",
-        "projectPath": "C:\\Users\\josem\\source\\Large Projects\\Buenos Aires Real Estate API - Expose\\Buenos Aires Real Estate API\\BuenosAiresRealEstateAPI\\BuenosAiresRealEstate.Utilities\\BuenosAiresRealEstate.API.Utilities.csproj",
+        "projectPath": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\BuenosAiresRealEstate.Utilities\\BuenosAiresRealEstate.API.Utilities.csproj",
         "packagesPath": "C:\\Users\\josem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josem\\source\\Large Projects\\Buenos Aires Real Estate API - Expose\\Buenos Aires Real Estate API\\BuenosAiresRealEstateAPI\\BuenosAiresRealEstate.Utilities\\obj\\",
+        "outputPath": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\BuenosAiresRealEstate.Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\josem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -162,11 +162,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\josem\\source\\Large Projects\\Buenos Aires Real Estate API - Expose\\Buenos Aires Real Estate API\\BuenosAiresRealEstateAPI\\BuenosAiresRealEstate.Data\\BuenosAiresRealEstate.API.Data.csproj": {
-                "projectPath": "C:\\Users\\josem\\source\\Large Projects\\Buenos Aires Real Estate API - Expose\\Buenos Aires Real Estate API\\BuenosAiresRealEstateAPI\\BuenosAiresRealEstate.Data\\BuenosAiresRealEstate.API.Data.csproj"
+              "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\BuenosAiresRealEstate.Data\\BuenosAiresRealEstate.API.Data.csproj": {
+                "projectPath": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\BuenosAiresRealEstate.Data\\BuenosAiresRealEstate.API.Data.csproj"
               },
-              "C:\\Users\\josem\\source\\Large Projects\\Buenos Aires Real Estate API - Expose\\Buenos Aires Real Estate API\\BuenosAiresRealEstateAPI\\BuenosAiresRealEstate.Models\\BuenosAiresRealEstate.API.Models.csproj": {
-                "projectPath": "C:\\Users\\josem\\source\\Large Projects\\Buenos Aires Real Estate API - Expose\\Buenos Aires Real Estate API\\BuenosAiresRealEstateAPI\\BuenosAiresRealEstate.Models\\BuenosAiresRealEstate.API.Models.csproj"
+              "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\BuenosAiresRealEstate.Models\\BuenosAiresRealEstate.API.Models.csproj": {
+                "projectPath": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\BuenosAiresRealEstate.Models\\BuenosAiresRealEstate.API.Models.csproj"
               }
             }
           }

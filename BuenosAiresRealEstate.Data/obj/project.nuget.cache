@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a386WlAzALUiLMAFQj7w9bflZ6n6nal68Cf86jZcEXd3NpN/JJ5MU1mAvUZQ8GmHcJM7+SNdQ1umrGmGgtAmRQ==",
+  "dgSpecHash": "zZGWSi94+CxghkVDFJe7xhrIuGIvU+8V26ctD+ql0bwdrSrt0Atv/vXzcQU9lDM3i5Dr1fZngcNIrM5XbwHYkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\josem\\source\\Large Projects\\Buenos Aires Real Estate API - Expose\\Buenos Aires Real Estate API\\BuenosAiresRealEstateAPI\\BuenosAiresRealEstate.Data\\BuenosAiresRealEstate.API.Data.csproj",
+  "projectFilePath": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\BuenosAiresRealEstate.Data\\BuenosAiresRealEstate.API.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josem\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\josem\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

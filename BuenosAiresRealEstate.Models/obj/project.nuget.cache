@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kFmeVOz/K4Coj4AFVk/JOikkJ7rDolIU8dPN3UghEN9RlzEYVnXqAzA2jYGaHQMBizN60QgAz2HJ3iBTA4iwBQ==",
+  "dgSpecHash": "BUHvRI+uS39Vbhq1fqMOaAvjH6XDT/liaWZB6EgK9oCPILhjo0d1xMBRwP62mBqXW/tfLSzQz5hJgybSWwQZeA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\josem\\source\\Large Projects\\Buenos Aires Real Estate API - Expose\\Buenos Aires Real Estate API\\BuenosAiresRealEstateAPI\\BuenosAiresRealEstate.Models\\BuenosAiresRealEstate.API.Models.csproj",
+  "projectFilePath": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\BuenosAiresRealEstate.Models\\BuenosAiresRealEstate.API.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
