@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "p6BbM0AcFQo6/FTV4mH1b9Y6A8QB3kJMtQfy+F08lUY=",
+  "Hash": "NmIJGD96Z2INnBhnr2vMoOP5YBRkFlr0o0gFMzgK5nQ=",
   "Source": "MVCAppConsumingBAREAPI.Web",
   "BasePath": "_content/MVCAppConsumingBAREAPI.Web",
   "Mode": "Default",
@@ -85,12 +85,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\images\\apartmentComplex\\Alcorta.jpeg",
+      "Identity": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\Images\\Alcorta.jpg",
       "SourceId": "MVCAppConsumingBAREAPI.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\",
       "BasePath": "_content/MVCAppConsumingBAREAPI.Web",
-      "RelativePath": "images/apartmentComplex/Alcorta.jpeg",
+      "RelativePath": "Images/Alcorta.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,15 +99,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\apartmentComplex\\Alcorta.jpeg"
+      "OriginalItemSpec": "wwwroot\\Images\\Alcorta.jpg"
     },
     {
-      "Identity": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\images\\apartmentComplex\\Beruti.jpeg",
+      "Identity": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\Images\\Beruti.jpg",
       "SourceId": "MVCAppConsumingBAREAPI.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\",
       "BasePath": "_content/MVCAppConsumingBAREAPI.Web",
-      "RelativePath": "images/apartmentComplex/Beruti.jpeg",
+      "RelativePath": "Images/Beruti.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,15 +116,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\apartmentComplex\\Beruti.jpeg"
+      "OriginalItemSpec": "wwwroot\\Images\\Beruti.jpg"
     },
     {
-      "Identity": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\images\\apartmentComplex\\Guise.jpeg",
+      "Identity": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\Images\\Guise.jpg",
       "SourceId": "MVCAppConsumingBAREAPI.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\",
       "BasePath": "_content/MVCAppConsumingBAREAPI.Web",
-      "RelativePath": "images/apartmentComplex/Guise.jpeg",
+      "RelativePath": "Images/Guise.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -133,15 +133,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\apartmentComplex\\Guise.jpeg"
+      "OriginalItemSpec": "wwwroot\\Images\\Guise.jpg"
     },
     {
-      "Identity": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\images\\apartmentComplex\\Juncal.jpeg",
+      "Identity": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\Images\\home\\mainImage.jpeg",
       "SourceId": "MVCAppConsumingBAREAPI.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\",
       "BasePath": "_content/MVCAppConsumingBAREAPI.Web",
-      "RelativePath": "images/apartmentComplex/Juncal.jpeg",
+      "RelativePath": "Images/home/mainImage.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,15 +150,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\apartmentComplex\\Juncal.jpeg"
+      "OriginalItemSpec": "wwwroot\\Images\\home\\mainImage.jpeg"
     },
     {
-      "Identity": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\images\\apartmentComplex\\Mansilla.jpeg",
+      "Identity": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\Images\\Juncal.jpg",
       "SourceId": "MVCAppConsumingBAREAPI.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\",
       "BasePath": "_content/MVCAppConsumingBAREAPI.Web",
-      "RelativePath": "images/apartmentComplex/Mansilla.jpeg",
+      "RelativePath": "Images/Juncal.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -167,15 +167,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\apartmentComplex\\Mansilla.jpeg"
+      "OriginalItemSpec": "wwwroot\\Images\\Juncal.jpg"
     },
     {
-      "Identity": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\images\\apartmentComplex\\Paraguay.jpeg",
+      "Identity": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\Images\\Mansilla.jpg",
       "SourceId": "MVCAppConsumingBAREAPI.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\",
       "BasePath": "_content/MVCAppConsumingBAREAPI.Web",
-      "RelativePath": "images/apartmentComplex/Paraguay.jpeg",
+      "RelativePath": "Images/Mansilla.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -184,15 +184,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\apartmentComplex\\Paraguay.jpeg"
+      "OriginalItemSpec": "wwwroot\\Images\\Mansilla.jpg"
     },
     {
-      "Identity": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\images\\apartmentComplex\\SantaFe.jpeg",
+      "Identity": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\Images\\Paraguay.jpg",
       "SourceId": "MVCAppConsumingBAREAPI.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\",
       "BasePath": "_content/MVCAppConsumingBAREAPI.Web",
-      "RelativePath": "images/apartmentComplex/SantaFe.jpeg",
+      "RelativePath": "Images/Paraguay.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -201,15 +201,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\apartmentComplex\\SantaFe.jpeg"
+      "OriginalItemSpec": "wwwroot\\Images\\Paraguay.jpg"
     },
     {
-      "Identity": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\images\\home\\mainImage.jpeg",
+      "Identity": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\Images\\SantaFe.jpg",
       "SourceId": "MVCAppConsumingBAREAPI.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\",
       "BasePath": "_content/MVCAppConsumingBAREAPI.Web",
-      "RelativePath": "images/home/mainImage.jpeg",
+      "RelativePath": "Images/SantaFe.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -218,7 +218,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\home\\mainImage.jpeg"
+      "OriginalItemSpec": "wwwroot\\Images\\SantaFe.jpg"
     },
     {
       "Identity": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\js\\site.js",
