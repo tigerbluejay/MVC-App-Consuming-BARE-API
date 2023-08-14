@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using MVCAppConsumingBAREAPI.Utilities.Mapping;
+using MVCAppConsumingBAREAPI.Web.ServiceInterfaces;
+using MVCAppConsumingBAREAPI.Web.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,14 +14,14 @@ builder.Services.AddAutoMapper(typeof(Mapping));
 /******* Add HttpClient on Services *******/
 /******* Register Services for Dependency Injection *****/
 
-//builder.Services.AddHttpClient<IVillaService, VillaService>();
-//builder.Services.AddScoped<IVillaService, VillaService>();
+builder.Services.AddHttpClient<IApartmentComplexService, ApartmentComplexService>();
+builder.Services.AddScoped<IApartmentComplexService, ApartmentComplexService>();
 
-//builder.Services.AddHttpClient<IVillaNumberService, VillaNumberService>();
-//builder.Services.AddScoped<IVillaNumberService, VillaNumberService>();
+builder.Services.AddHttpClient<IApartmentUnitService, ApartmentUnitService>();
+builder.Services.AddScoped<IApartmentUnitService, ApartmentUnitService>();
 
-//builder.Services.AddHttpClient<IAuthService, AuthService>();
-//builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddHttpClient<IAuthService, AuthService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
 
 /******* Add HttpContextAccessor in _Layout *******/
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
@@ -61,6 +63,8 @@ app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.UseSession();
 
 app.MapControllerRoute(
     name: "default",

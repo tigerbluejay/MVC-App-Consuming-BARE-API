@@ -44,7 +44,7 @@ namespace BuenosAiresRealEstate.API.Controllers.v1
         [ResponseCache(CacheProfileName = "Default30")]
         public async Task<ActionResult<APIResponse>> GetApartmentComplexes(
             [FromQuery(Name = "filterComplexName")] string? complexName,
-            [FromQuery] string? searchAmenities, int pageSize = 0, int pageNumber = 1)
+            [FromQuery] string? searchAmenities, int pageSize = 10, int pageNumber = 1)
         {
             _logger.LogInformation("Getting Apartment Complexes");
 

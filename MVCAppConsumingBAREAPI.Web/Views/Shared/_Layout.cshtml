@@ -1,49 +1,91 @@
-﻿<!DOCTYPE html>
+﻿@using MVCAppConsumingBAREAPI.Utilities;
+@using Microsoft.AspNetCore.Http;
+@*@inject HttpContextAccessor httpContextAccessor
+*@@*we inject the context accessor object in order to be able to determine if we need to display
+the logout, login and register li elements below, depending on the state of the session
+this is simlar to what we do in the controller dependency injecting the context to access sessions
+*@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - MVCAppConsumingBAREAPI.Web</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/MVCAppConsumingBAREAPI.Web.styles.css" asp-append-version="true" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - MVC Application Consuming BARE API</title>
+	<!-- Add these lines to the head section -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">MVCAppConsumingBAREAPI.Web</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+	<header>
+		<nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
+			<div class="container-fluid">
+				<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">MVC Application Consuming BARE API</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - MVCAppConsumingBAREAPI.Web - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+				<div class="dropdown">
+					<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="min-width: 300px;">
+						Manage Apartments
+					</button>
+					<ul class="dropdown-menu dropdown-menu-end">
+						<!-- Your navigation items here -->
+						<li class="nav-item">
+							<a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="dropdown-item" asp-area="" asp-controller="ApartmentComplex" asp-action="ApartmentComplexIndex">Manage Apartment Complexes</a>
+						</li>
+						<li class="nav-item">
+							<a class="dropdown-item" asp-area="" asp-controller="ApartmentUnit" asp-action="ApartmentUnitIndex">Manage Apartment Units</a>
+						</li>
+						<li class="nav-item">
+							<a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+						</li>
+
+						@*						@{
+						var sessionTokenNotNull = httpContextAccessor.HttpContext.Session.GetString(StaticDetails.SessionToken) != null;
+						var sessionTokenNotEmpty = httpContextAccessor.HttpContext.Session.GetString(StaticDetails.SessionToken).ToString().Length > 0;
+
+						if (sessionTokenNotNull && sessionTokenNotEmpty)
+						{
+						<li class="nav-item">
+						<a class="nav-link text-dark" asp-controller="Auth" asp-action="Logout">Logout</a>
+						</li>
+						}
+						else
+						{
+						<li class="nav-item">
+						<a class="nav-link text-dark" asp-controller="Auth" asp-action="Login">Login</a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link text-dark" asp-controller="Auth" asp-action="Register">Register</a>
+						</li>
+						}
+						}
+						*@
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="container">
+		<main role="main" class="pb-3">
+			@RenderBody()
+		</main>
+	</div>
+
+	<footer class="border-top footer text-muted">
+		<div class="container">
+			&copy; 2023 - MVCAppConsumingBAREAPI.Web - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+		</div>
+	</footer>
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="~/js/site.js" asp-append-version="true"></script>
+	@await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

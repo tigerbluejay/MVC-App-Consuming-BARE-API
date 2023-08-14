@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
@@ -16,6 +16,11 @@
   <ItemGroup>
     <ProjectReference Include="..\MVCAppConsuingBAREAPI.Models\MVCAppConsumingBAREAPI.Models.csproj" />
     <ProjectReference Include="..\MVCAppConsumingBAREAPI.Utilities\MVCAppConsumingBAREAPI.Utilities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\home\" />
+    <Folder Include="wwwroot\images\apartmentComplex\" />
   </ItemGroup>
 
 </Project>

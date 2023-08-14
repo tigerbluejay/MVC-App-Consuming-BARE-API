@@ -1,8 +1,58 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@using Microsoft.AspNetCore.Components;
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@model IEnumerable<MVCAppConsumingBAREAPI.Models.DTOs.ApartmentComplexDTO>
+
+<hr />
+<div class="row" style="--bs-gutter-x:0">
+
+	<div class="container-fluid">
+		<div class="row">
+			<!-- First Column (Image) -->
+			<div class="col-md-6 d-flex align-items-center">
+				<div class="text-center">
+					<a href="#">
+						<img src="images/home/mainImage.jpeg" alt="Landscape Image" class="img-fluid">
+					</a>
+				</div>
+			</div>
+			<!-- Second Column (Content) -->
+			<div class="col-md-6 bg-dark text-white p-3 justify-content-center align-items-center">
+				<div>
+					<h2 class="p-2">Welcome to the Apartment Management System</h2>
+					<p class="p-2">On the navigation bar menu, you'll find options to manage Apartment Complexes and Apartment Units.</p>
+					<p class="p-2">This page displays the Apartment Complexes fetched from the Buenos Aires Real Estate API.</p>
+				</div>
+			</div>
+
+			<!-- Third Column (Apartment Complexes) -->
+			<div class="col-md-12 p-3 justify-content-center align-items-center">
+				<div class="row">
+					@foreach (var apartmentComplex in Model)
+					{
+						<div class="p-4 col-md-4">
+							<div class="row" style="border-radius: 20px; border: 1px solid #ffffff">
+								<div class="col-12">
+									<p class="card-title text-black" style="font-size: xx-large">@apartmentComplex.ComplexName</p>
+								</div>
+								<div class="col-12">
+									<p class="card-text pt-3">@apartmentComplex.Address</p>
+								</div>
+								<div class="col-12">
+									<div class="row pb-3 pt-2">
+										<div class="col-6">
+											<span class="">Address: @apartmentComplex.Address</span><br />
+											<span class="pt-1">Owner: @apartmentComplex.Owner</span><br />
+										</div>
+										<div class="col-6">
+											<span class="">Amenities: @apartmentComplex.Amenities</span><br />
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					}
+				</div>
+			</div>
+		</div>
+	</div>
 </div>

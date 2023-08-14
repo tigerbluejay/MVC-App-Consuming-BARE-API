@@ -16,5 +16,6 @@ namespace MVCAppConsumingBAREAPI.Utilities
             DELETE
         }
 
+        public static string SessionToken = "JWTToken";
     }
 }

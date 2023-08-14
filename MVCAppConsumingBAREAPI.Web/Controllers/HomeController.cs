@@ -1,24 +1,39 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MVCAppConsumingBAREAPI.Web.Models;
+using MVCAppConsumingBAREAPI.Models.DTOs;
+using MVCAppConsumingBAREAPI.Models.Models;
+using MVCAppConsumingBAREAPI.Utilities;
+using MVCAppConsumingBAREAPI.Web.ServiceInterfaces;
+using Newtonsoft.Json;
 using System.Diagnostics;
+using ErrorViewModel = MVCAppConsumingBAREAPI.Web.Models.ErrorViewModel;
 
 namespace MVCAppConsumingBAREAPI.Web.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly IApartmentComplexService _apartmentComplexService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IApartmentComplexService apartmentComplexService)
         {
-            _logger = logger;
+            _apartmentComplexService = apartmentComplexService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
-        }
+            List<ApartmentComplexDTO> apartmentComplexList = new();
 
-        public IActionResult Privacy()
+            var response = await _apartmentComplexService.GetAllAsync<APIResponse>
+                (HttpContext.Session.GetString(StaticDetails.SessionToken));
+
+            if (response != null && response.IsSuccess)
+            {
+                apartmentComplexList = 
+                    JsonConvert.DeserializeObject<List<ApartmentComplexDTO>>(Convert.ToString(response.Result));
+            }
+
+            return View(apartmentComplexList);
+        }
+		public IActionResult Privacy()
         {
             return View();
         }

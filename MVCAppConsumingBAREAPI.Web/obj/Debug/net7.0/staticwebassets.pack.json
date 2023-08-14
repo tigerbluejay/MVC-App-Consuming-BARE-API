@@ -13,6 +13,38 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\images\\apartmentComplex\\Alcorta.jpeg",
+      "PackagePath": "staticwebassets\\images\\apartmentComplex\\Alcorta.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\images\\apartmentComplex\\Beruti.jpeg",
+      "PackagePath": "staticwebassets\\images\\apartmentComplex\\Beruti.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\images\\apartmentComplex\\Guise.jpeg",
+      "PackagePath": "staticwebassets\\images\\apartmentComplex\\Guise.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\images\\apartmentComplex\\Juncal.jpeg",
+      "PackagePath": "staticwebassets\\images\\apartmentComplex\\Juncal.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\images\\apartmentComplex\\Mansilla.jpeg",
+      "PackagePath": "staticwebassets\\images\\apartmentComplex\\Mansilla.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\images\\apartmentComplex\\Paraguay.jpeg",
+      "PackagePath": "staticwebassets\\images\\apartmentComplex\\Paraguay.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\images\\apartmentComplex\\SantaFe.jpeg",
+      "PackagePath": "staticwebassets\\images\\apartmentComplex\\SantaFe.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\images\\home\\mainImage.jpeg",
+      "PackagePath": "staticwebassets\\images\\home\\mainImage.jpeg"
+    },
+    {
       "Id": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
