@@ -1,7 +1,7 @@
 ﻿@using MVCAppConsumingBAREAPI.Utilities;
 @using Microsoft.AspNetCore.Http;
-@*@inject HttpContextAccessor httpContextAccessor
-*@@*we inject the context accessor object in order to be able to determine if we need to display
+@*@inject HttpContextAccessor httpContextAccessor*@
+@*we inject the context accessor object in order to be able to determine if we need to display
 the logout, login and register li elements below, depending on the state of the session
 this is simlar to what we do in the controller dependency injecting the context to access sessions
 *@
@@ -45,28 +45,32 @@ this is simlar to what we do in the controller dependency injecting the context 
 						<li class="nav-item">
 							<a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
 						</li>
+					</ul>
+				</div>
 
-						@*						@{
-						var sessionTokenNotNull = httpContextAccessor.HttpContext.Session.GetString(StaticDetails.SessionToken) != null;
-						var sessionTokenNotEmpty = httpContextAccessor.HttpContext.Session.GetString(StaticDetails.SessionToken).ToString().Length > 0;
+				<div class="m-4">
+					<ul class="list-inline">
+					@*@{
+					var sessionTokenNotNull = httpContextAccessor.HttpContext.Session.GetString(StaticDetails.SessionToken) != null;
+					var sessionTokenNotEmpty = httpContextAccessor.HttpContext.Session.GetString(StaticDetails.SessionToken).ToString().Length > 0;
 
-						if (sessionTokenNotNull && sessionTokenNotEmpty)
-						{
-						<li class="nav-item">
+					if (sessionTokenNotNull && sessionTokenNotEmpty)
+					{*@
+					<li class="list-inline-item">
 						<a class="nav-link text-dark" asp-controller="Auth" asp-action="Logout">Logout</a>
-						</li>
-						}
-						else
-						{
-						<li class="nav-item">
+					</li>
+					@*}
+					else
+					{*@
+						<li class="list-inline-item">
 						<a class="nav-link text-dark" asp-controller="Auth" asp-action="Login">Login</a>
-						</li>
-						<li class="nav-item">
+					</li>
+						<li class="list-inline-item">
 						<a class="nav-link text-dark" asp-controller="Auth" asp-action="Register">Register</a>
-						</li>
-						}
-						}
-						*@
+					</li>
+					@*}
+					}
+					*@
 					</ul>
 				</div>
 			</div>

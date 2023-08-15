@@ -25,7 +25,7 @@ namespace MVCAppConsumingBAREAPI.Web.Services
                 Data = loginRequestDTO,
                 // here we get "api/v1/UsersAuth" route from the data annotation in the controller
                 // and we get "login" from the action (method) name data annotation
-                Url = authBaseUrl + "api/v1/UsersAuth/login"
+                Url = authBaseUrl + "/api/v1/UsersAuth/login"
             };
 
             return SendAsync<T>(apiRequest);
@@ -37,7 +37,7 @@ namespace MVCAppConsumingBAREAPI.Web.Services
             {
                 ApiType = StaticDetails.ApiType.POST,
                 Data = registerRequestDTO,
-                Url = authBaseUrl + "api/v1/UsersAuth/register"
+                Url = authBaseUrl + "/api/v1/UsersAuth/register"
             };
 
             return SendAsync<T>(apiRequest);
