@@ -1,10 +1,10 @@
-﻿using MVCAppConsumingBAREAPI.Models.Models;
+﻿using MVCAppConsumingBAREAPI.Models;
+using MVCAppConsumingBAREAPI.Models.Models;
 using MVCAppConsumingBAREAPI.Web.ServiceInterfaces;
 using Newtonsoft.Json;
 using System.Diagnostics;
 using System;
 using System.Text;
-using MVCAppConsumingBAREAPI.Utilities;
 using System.Net.Http.Headers;
 using System.Net;
 
@@ -87,11 +87,17 @@ namespace MVCAppConsumingBAREAPI.Web.Services
                 {
                     APIResponse apiResponse = JsonConvert.DeserializeObject<APIResponse>(apiContent);
 
-                    bool apiResponseIsNotNull = apiResponse != null;
-                    bool apiResponseIsBadRequest = apiResponse.StatusCode == HttpStatusCode.BadRequest;
-                    bool apiResponseIsNotFound = apiResponse.StatusCode == HttpStatusCode.NotFound;
+                    bool apiResponseIsBadRequest = false;
+                    bool apiResponseIsNotFound = false;
 
-                    if (apiResponseIsNotNull && (apiResponseIsBadRequest || apiResponseIsNotFound))
+                    bool apiResponseIsNotNull = apiResponse != null;
+
+                    if (apiResponseIsNotNull) { 
+                    apiResponseIsBadRequest = apiResponse.StatusCode == HttpStatusCode.BadRequest;
+                    apiResponseIsNotFound = apiResponse.StatusCode == HttpStatusCode.NotFound;
+					}
+
+					if (apiResponseIsNotNull && (apiResponseIsBadRequest || apiResponseIsNotFound))
                     {
 
                         apiResponse.StatusCode = HttpStatusCode.BadRequest;

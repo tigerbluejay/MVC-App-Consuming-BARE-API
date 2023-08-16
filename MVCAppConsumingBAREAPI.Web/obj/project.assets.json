@@ -1188,7 +1188,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "MVCAppConsumingBAREAPI.Utilities": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
         },
         "compile": {
@@ -1203,7 +1202,8 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "AutoMapper": "12.0.1",
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1"
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "MVCAppConsumingBAREAPI.Models": "1.0.0"
         },
         "compile": {
           "bin/placeholder/MVCAppConsumingBAREAPI.Utilities.dll": {}

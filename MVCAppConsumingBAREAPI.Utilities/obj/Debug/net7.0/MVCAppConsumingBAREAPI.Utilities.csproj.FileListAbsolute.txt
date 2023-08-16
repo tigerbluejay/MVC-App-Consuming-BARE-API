@@ -10,3 +10,6 @@ C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Appl
 C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsumingBAREAPI.Utilities\obj\Debug\net7.0\refint\MVCAppConsumingBAREAPI.Utilities.dll
 C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsumingBAREAPI.Utilities\obj\Debug\net7.0\MVCAppConsumingBAREAPI.Utilities.pdb
 C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsumingBAREAPI.Utilities\obj\Debug\net7.0\ref\MVCAppConsumingBAREAPI.Utilities.dll
+C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsumingBAREAPI.Utilities\obj\Debug\net7.0\MVCAppConsumingBAREAPI.Utilities.csproj.CopyComplete
+C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsumingBAREAPI.Utilities\bin\Debug\net7.0\MVCAppConsumingBAREAPI.Models.dll
+C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsumingBAREAPI.Utilities\bin\Debug\net7.0\MVCAppConsumingBAREAPI.Models.pdb

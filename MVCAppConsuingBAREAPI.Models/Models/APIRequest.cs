@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static MVCAppConsumingBAREAPI.Utilities.StaticDetails;
+using static MVCAppConsumingBAREAPI.Models.StaticDetails;
 
 namespace MVCAppConsumingBAREAPI.Models.Models
 {

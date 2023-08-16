@@ -16,6 +16,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsumingBAREAPI.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/josem/source/Large Projects/MVC Application Consuming BARE API/MVC Application Consuming BARE API/MVCAppConsumingBAREAPI.Web/Views/ApartmentComplex/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBhcnRtZW50Q29tcGxleFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josem/source/Large Projects/MVC Application Consuming BARE API/MVC Application Consuming BARE API/MVCAppConsumingBAREAPI.Web/Views/ApartmentComplex/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBhcnRtZW50Q29tcGxleFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josem/source/Large Projects/MVC Application Consuming BARE API/MVC Application Consuming BARE API/MVCAppConsumingBAREAPI.Web/Views/ApartmentComplex/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBhcnRtZW50Q29tcGxleFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josem/source/Large Projects/MVC Application Consuming BARE API/MVC Application Consuming BARE API/MVCAppConsumingBAREAPI.Web/Views/ApartmentComplex/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBhcnRtZW50Q29tcGxleFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/josem/source/Large Projects/MVC Application Consuming BARE API/MVC Application Consuming BARE API/MVCAppConsumingBAREAPI.Web/Views/Auth/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

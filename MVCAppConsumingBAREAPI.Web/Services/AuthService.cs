@@ -1,7 +1,7 @@
 ﻿using MVCAppConsumingBAREAPI.Models.IdentityDTOs;
 using MVCAppConsumingBAREAPI.Models.Models;
 using MVCAppConsumingBAREAPI.Web.ServiceInterfaces;
-using MVCAppConsumingBAREAPI.Utilities;
+using MVCAppConsumingBAREAPI.Models;
 
 namespace MVCAppConsumingBAREAPI.Web.Services
 {

@@ -27,11 +27,7 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {
-              "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Utilities\\MVCAppConsumingBAREAPI.Utilities.csproj": {
-                "projectPath": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Utilities\\MVCAppConsumingBAREAPI.Utilities.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -92,7 +88,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsuingBAREAPI.Models\\MVCAppConsumingBAREAPI.Models.csproj": {
+                "projectPath": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsuingBAREAPI.Models\\MVCAppConsumingBAREAPI.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -11,4 +11,8 @@
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MVCAppConsuingBAREAPI.Models\MVCAppConsumingBAREAPI.Models.csproj" />
+  </ItemGroup>
+
 </Project>

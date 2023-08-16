@@ -1,14 +1,11 @@
 C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsuingBAREAPI.Models\bin\Debug\net7.0\MVCAppConsumingBAREAPI.Models.deps.json
 C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsuingBAREAPI.Models\bin\Debug\net7.0\MVCAppConsumingBAREAPI.Models.dll
 C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsuingBAREAPI.Models\bin\Debug\net7.0\MVCAppConsumingBAREAPI.Models.pdb
-C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsuingBAREAPI.Models\bin\Debug\net7.0\MVCAppConsumingBAREAPI.Utilities.dll
-C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsuingBAREAPI.Models\bin\Debug\net7.0\MVCAppConsumingBAREAPI.Utilities.pdb
 C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsuingBAREAPI.Models\obj\Debug\net7.0\MVCAppConsumingBAREAPI.Models.csproj.AssemblyReference.cache
 C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsuingBAREAPI.Models\obj\Debug\net7.0\MVCAppConsumingBAREAPI.Models.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsuingBAREAPI.Models\obj\Debug\net7.0\MVCAppConsumingBAREAPI.Models.AssemblyInfoInputs.cache
 C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsuingBAREAPI.Models\obj\Debug\net7.0\MVCAppConsumingBAREAPI.Models.AssemblyInfo.cs
 C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsuingBAREAPI.Models\obj\Debug\net7.0\MVCAppConsumingBAREAPI.Models.csproj.CoreCompileInputs.cache
-C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsuingBAREAPI.Models\obj\Debug\net7.0\MVCAppConsumingBAREAPI.Models.csproj.CopyComplete
 C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsuingBAREAPI.Models\obj\Debug\net7.0\MVCAppConsumingBAREAPI.Models.dll
 C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsuingBAREAPI.Models\obj\Debug\net7.0\refint\MVCAppConsumingBAREAPI.Models.dll
 C:\Users\josem\source\Large Projects\MVC Application Consuming BARE API\MVC Application Consuming BARE API\MVCAppConsuingBAREAPI.Models\obj\Debug\net7.0\MVCAppConsumingBAREAPI.Models.pdb

@@ -1,6 +1,6 @@
 ﻿@using MVCAppConsumingBAREAPI.Utilities;
 @using Microsoft.AspNetCore.Http;
-@*@inject HttpContextAccessor httpContextAccessor*@
+@inject IHttpContextAccessor httpContextAccessor
 @*we inject the context accessor object in order to be able to determine if we need to display
 the logout, login and register li elements below, depending on the state of the session
 this is simlar to what we do in the controller dependency injecting the context to access sessions
@@ -13,6 +13,7 @@ this is simlar to what we do in the controller dependency injecting the context 
 	<title>@ViewData["Title"] - MVC Application Consuming BARE API</title>
 	<!-- Add these lines to the head section -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -37,10 +38,10 @@ this is simlar to what we do in the controller dependency injecting the context 
 							<a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="dropdown-item" asp-area="" asp-controller="ApartmentComplex" asp-action="ApartmentComplexIndex">Manage Apartment Complexes</a>
+							<a class="dropdown-item" asp-area="" asp-controller="ApartmentComplex" asp-action="Index">Manage Apartment Complexes</a>
 						</li>
 						<li class="nav-item">
-							<a class="dropdown-item" asp-area="" asp-controller="ApartmentUnit" asp-action="ApartmentUnitIndex">Manage Apartment Units</a>
+							<a class="dropdown-item" asp-area="" asp-controller="ApartmentUnit" asp-action="Index">Manage Apartment Units</a>
 						</li>
 						<li class="nav-item">
 							<a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
@@ -50,27 +51,31 @@ this is simlar to what we do in the controller dependency injecting the context 
 
 				<div class="m-4">
 					<ul class="list-inline">
-					@*@{
-					var sessionTokenNotNull = httpContextAccessor.HttpContext.Session.GetString(StaticDetails.SessionToken) != null;
-					var sessionTokenNotEmpty = httpContextAccessor.HttpContext.Session.GetString(StaticDetails.SessionToken).ToString().Length > 0;
+						@{
+							bool sessionTokenNotEmpty = false;
+							
+							bool sessionTokenNotNull = httpContextAccessor.HttpContext.Session.GetString(StaticDetails.SessionToken) != null;
+							
+							if (sessionTokenNotNull){
+							sessionTokenNotEmpty = httpContextAccessor.HttpContext.Session.GetString(StaticDetails.SessionToken).ToString().Length > 0;
+							}
 
-					if (sessionTokenNotNull && sessionTokenNotEmpty)
-					{*@
-					<li class="list-inline-item">
-						<a class="nav-link text-dark" asp-controller="Auth" asp-action="Logout">Logout</a>
-					</li>
-					@*}
-					else
-					{*@
-						<li class="list-inline-item">
-						<a class="nav-link text-dark" asp-controller="Auth" asp-action="Login">Login</a>
-					</li>
-						<li class="list-inline-item">
-						<a class="nav-link text-dark" asp-controller="Auth" asp-action="Register">Register</a>
-					</li>
-					@*}
-					}
-					*@
+							if (sessionTokenNotNull && sessionTokenNotEmpty)
+							{
+								<li class="list-inline-item">
+									<a class="nav-link text-dark" asp-controller="Auth" asp-action="Logout">Logout</a>
+								</li>
+							}
+							else
+							{
+								<li class="list-inline-item">
+									<a class="nav-link text-dark" asp-controller="Auth" asp-action="Login">Login</a>
+								</li>
+								<li class="list-inline-item">
+									<a class="nav-link text-dark" asp-controller="Auth" asp-action="Register">Register</a>
+								</li>
+							}
+						}
 					</ul>
 				</div>
 			</div>

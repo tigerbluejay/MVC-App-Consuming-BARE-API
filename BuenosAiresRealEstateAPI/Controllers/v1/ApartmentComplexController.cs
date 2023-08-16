@@ -253,7 +253,7 @@ namespace BuenosAiresRealEstate.API.Controllers.v1
                 _logger.LogInformation("ApartmentComplex with Id " + id + " deleted successfully.");
                 _response.StatusCode = HttpStatusCode.NoContent;
                 _response.IsSuccess = true;
-                return NoContent(); // typically when we delete, we don't return anything
+                return Ok(_response);
 
             }
             catch (Exception ex)

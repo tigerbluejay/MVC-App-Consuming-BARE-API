@@ -1,6 +1,7 @@
 ﻿using MVCAppConsumingBAREAPI.Models.DTOs;
 using MVCAppConsumingBAREAPI.Models.Models;
 using MVCAppConsumingBAREAPI.Web.ServiceInterfaces;
+using MVCAppConsumingBAREAPI.Models;
 
 namespace MVCAppConsumingBAREAPI.Web.Services
 {
@@ -22,7 +23,7 @@ namespace MVCAppConsumingBAREAPI.Web.Services
         {
             APIRequest apiRequest = new APIRequest()
             {
-                ApiType = Utilities.StaticDetails.ApiType.GET,
+                ApiType = StaticDetails.ApiType.GET,
                 Url = apartmentComplexBaseUrl + "/api/v1/ApartmentComplexAPI",
                 Token = token
             };
@@ -34,7 +35,7 @@ namespace MVCAppConsumingBAREAPI.Web.Services
         {
             APIRequest apiRequest = new APIRequest()
             {
-                ApiType = Utilities.StaticDetails.ApiType.GET,
+                ApiType = StaticDetails.ApiType.GET,
                 Url = apartmentComplexBaseUrl + "/api/v1/ApartmentComplexAPI/" + id,
                 Token = token
             };
@@ -47,7 +48,7 @@ namespace MVCAppConsumingBAREAPI.Web.Services
         {
             APIRequest apiRequest = new APIRequest()
             {
-                ApiType = Utilities.StaticDetails.ApiType.POST,
+                ApiType = StaticDetails.ApiType.POST,
                 Data = apartmentComplexCreateDTO,
                 Url = apartmentComplexBaseUrl + "/api/v1/ApartmentComplexAPI",
                 Token = token
@@ -61,7 +62,7 @@ namespace MVCAppConsumingBAREAPI.Web.Services
         {
             APIRequest apiRequest = new APIRequest()
             {
-                ApiType = Utilities.StaticDetails.ApiType.DELETE,
+                ApiType = StaticDetails.ApiType.DELETE,
                 Url = apartmentComplexBaseUrl + "/api/v1/ApartmentComplexAPI/" + id,
                 Token = token
             };
@@ -74,7 +75,7 @@ namespace MVCAppConsumingBAREAPI.Web.Services
         {
             APIRequest apiRequest = new APIRequest()
             {
-                ApiType = Utilities.StaticDetails.ApiType.PUT,
+                ApiType = StaticDetails.ApiType.PUT,
                 Data = apartmentComplexUpdateDTO,
                 Url = apartmentComplexBaseUrl + "/api/v1/ApartmentComplexAPI/" + apartmentComplexUpdateDTO.Id,
                 Token = token

@@ -1,0 +1,59 @@
+﻿@model IEnumerable<MVCAppConsumingBAREAPI.Models.DTOs.ApartmentComplexDTO> // List of Apartment Complexes from the Controller
+
+<br />
+<div class="container p-4 border">
+	<div class="row pb-2">
+		<div class="col-8">
+			<h1 class="text-primary">Apartment Complexes</h1>
+		</div>
+		<div class="col-4 text-end pt-1">
+			<a asp-controller="ApartmentComplex" asp-action="CreateApartmentComplex" class="btn btn-outline-primary">	<i class="bi bi-plus-square-fill"></i> Create New Apartment Complex</a>
+		</div>
+	</div>
+
+	<table class="table">
+		<thead>
+			<tr>
+				<th class="col-2">
+					Image
+				</th>
+				<th class="col-2">
+					Complex Name
+				</th>
+				<th class="col-2">
+					Address
+				</th>
+				<th class="col-2">
+					Amenities
+				</th>
+				<th class="col-2">
+					Owner
+				</th>
+				<th class="col-2">
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var apartmentComplex in Model)
+			{
+				<tr>
+					<td>
+						<img class="d-block img-fluid img-thumbnail" style="border-radius: 20px; width: 100px; height: 100px;" src="@apartmentComplex.ImageUrl" alt="slide" />
+					</td>
+					<td>@apartmentComplex.ComplexName</td>
+					<td>@apartmentComplex.Address</td>
+					<td>@apartmentComplex.Amenities</td>
+					<td>@apartmentComplex.Owner</td>
+					<td>
+						<a asp-controller="ApartmentComplex" asp-action="UpdateApartmentComplex" asp-route-apartmentComplexId="@apartmentComplex.Id" class="btn btn-success">
+							<span class="d-inline-block" style="min-width: 100px;">Edit <i class="bi bi-pen-fill"></i></span>
+						</a>
+						<a asp-controller="ApartmentComplex" asp-action="DeleteApartmentComplex" asp-route-apartmentComplexId="@apartmentComplex.Id" class="btn btn-danger" style="margin-top: 10px;">
+							<span class="d-inline-block" style="min-width: 100px;">Delete <i class="bi bi-x-circle-fill"></i></span>
+						</a>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+</div>

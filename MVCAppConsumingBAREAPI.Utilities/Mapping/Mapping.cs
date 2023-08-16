@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using MVCAppConsumingBAREAPI;
+using MVCAppConsumingBAREAPI.Models.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,11 +16,11 @@ namespace MVCAppConsumingBAREAPI.Utilities.Mapping
             // define here why exactly we are performing these mappings.
             // where in the application are they being used and for what reason.
 
-            //CreateMap<ApartmentComplexDTO, ApartmentComplexCreateDTO>().ReverseMap();
-            //CreateMap<ApartmentComplexDTO, ApartmentComplexUpdateDTO>().ReverseMap();
+            CreateMap<ApartmentComplexDTO, ApartmentComplexCreateDTO>().ReverseMap();
+            CreateMap<ApartmentComplexDTO, ApartmentComplexUpdateDTO>().ReverseMap();
 
-            //CreateMap<ApartmentUnitDTO, ApartmentUnitCreateDTO>().ReverseMap();
-            //CreateMap<ApartmentUnitDTO, ApartmentUnitUpdateDTO>().ReverseMap();
+            CreateMap<ApartmentUnitDTO, ApartmentUnitCreateDTO>().ReverseMap();
+            CreateMap<ApartmentUnitDTO, ApartmentUnitUpdateDTO>().ReverseMap();
 
         }
     }
