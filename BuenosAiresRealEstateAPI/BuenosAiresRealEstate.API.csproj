@@ -28,10 +28,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Images\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\BuenosAiresRealEstate.Data\BuenosAiresRealEstate.API.Data.csproj" />
     <ProjectReference Include="..\BuenosAiresRealEstate.Models\BuenosAiresRealEstate.API.Models.csproj" />
     <ProjectReference Include="..\BuenosAiresRealEstate.Utilities\BuenosAiresRealEstate.API.Utilities.csproj" />

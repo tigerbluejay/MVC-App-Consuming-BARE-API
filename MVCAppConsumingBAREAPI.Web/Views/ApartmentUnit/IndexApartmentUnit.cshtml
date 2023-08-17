@@ -1,0 +1,58 @@
+﻿@model IEnumerable<MVCAppConsumingBAREAPI.Models.DTOs.ApartmentUnitDTO> 
+
+<br />
+<div class="container p-4 border">
+	<div class="row pb-2">
+		<div class="col-8">
+			<h1 class="text-primary">Apartment Units</h1>
+		</div>
+		<div class="col-4 text-end pt-1">
+			<a asp-controller="ApartmentUnit" asp-action="CreateApartmentUnit" class="btn btn-outline-primary">	<i class="bi bi-plus-square-fill"></i> Create New Apartment Unit</a>
+		</div>
+	</div>
+
+	<table class="table">
+		<thead>
+			<tr>
+				<th class="col-2">
+					A. Complex Image
+				</th>
+				<th class="col-2">
+					A. Unit Image
+				</th>
+
+				<th class="col-3">
+					Complex Name
+				</th>
+				<th class="col-2">
+					Unit Name
+				</th>
+				<th class="col-3">
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var apartmentUnit in Model)
+			{
+				<tr>
+					<td>
+						<img class="d-block img-fluid img-thumbnail" style="border-radius: 20px; width: 100px; height: 100px;" src="@apartmentUnit.ApartmentComplex.ImageUrl" alt="slide" />
+					</td>
+					<td>
+						<img class="d-block img-fluid img-thumbnail" style="border-radius: 20px; width: 100px; height: 100px;" src="@apartmentUnit.ImageUrl" alt="slide" />
+					</td>
+					<td>@apartmentUnit.ApartmentComplex.ComplexName</td>
+					<td>@apartmentUnit.ApartmentUnitId</td>
+					<td>
+						<a asp-controller="ApartmentUnit" asp-action="UpdateApartmentUnit" asp-route-apartmentUnitId="@apartmentUnit.ApartmentUnitId" class="btn btn-success">
+							<span class="d-inline-block" style="min-width: 100px;">Edit <i class="bi bi-pen-fill"></i></span>
+						</a>
+						<a asp-controller="ApartmentUnit" asp-action="DeleteApartmentUnit" asp-route-apartmentUnitId="@apartmentUnit.ApartmentUnitId" class="btn btn-danger">
+							<span class="d-inline-block" style="min-width: 100px;">Delete <i class="bi bi-x-circle-fill"></i></span>
+						</a>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+</div>

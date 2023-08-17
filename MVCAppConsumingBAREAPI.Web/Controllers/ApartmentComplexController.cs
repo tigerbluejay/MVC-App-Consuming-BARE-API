@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using MVCAppConsumingBAREAPI.Models;
 using MVCAppConsumingBAREAPI.Models.DTOs;
 using MVCAppConsumingBAREAPI.Models.Models;
 using MVCAppConsumingBAREAPI.Utilities;

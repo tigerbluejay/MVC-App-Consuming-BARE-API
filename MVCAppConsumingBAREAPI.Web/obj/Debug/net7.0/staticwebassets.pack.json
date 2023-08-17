@@ -9,6 +9,30 @@
       "PackagePath": "staticwebassets\\Images\\Alcorta.jpg"
     },
     {
+      "Id": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\Images\\ApartmentUnits\\1000.jpg",
+      "PackagePath": "staticwebassets\\Images\\ApartmentUnits\\1000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\Images\\ApartmentUnits\\1002.jpg",
+      "PackagePath": "staticwebassets\\Images\\ApartmentUnits\\1002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\Images\\ApartmentUnits\\1004.jpg",
+      "PackagePath": "staticwebassets\\Images\\ApartmentUnits\\1004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\Images\\ApartmentUnits\\2000.jpg",
+      "PackagePath": "staticwebassets\\Images\\ApartmentUnits\\2000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\Images\\ApartmentUnits\\3000.jpg",
+      "PackagePath": "staticwebassets\\Images\\ApartmentUnits\\3000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\Images\\ApartmentUnits\\7000.jpg",
+      "PackagePath": "staticwebassets\\Images\\ApartmentUnits\\7000.jpg"
+    },
+    {
       "Id": "C:\\Users\\josem\\source\\Large Projects\\MVC Application Consuming BARE API\\MVC Application Consuming BARE API\\MVCAppConsumingBAREAPI.Web\\wwwroot\\Images\\Beruti.jpg",
       "PackagePath": "staticwebassets\\Images\\Beruti.jpg"
     },

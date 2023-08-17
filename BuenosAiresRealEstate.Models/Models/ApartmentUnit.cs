@@ -22,7 +22,7 @@ namespace BuenosAiresRealEstate.API.Models.Models
         [Required]
         public int Capacity { get; set; }
         public string ImageUrl { get; set; }
-        public int Details { get; set; }
+        public string Details { get; set; }
         public DateTime CreateDate { get; set; }
         public DateTime UpdateDate { get; set; }
 

@@ -1,4 +1,5 @@
-﻿@using MVCAppConsumingBAREAPI.Utilities;
+﻿@using MVCAppConsumingBAREAPI.Models;
+@using MVCAppConsumingBAREAPI.Utilities;
 @using Microsoft.AspNetCore.Http;
 @inject IHttpContextAccessor httpContextAccessor
 @*we inject the context accessor object in order to be able to determine if we need to display
@@ -41,7 +42,7 @@ this is simlar to what we do in the controller dependency injecting the context 
 							<a class="dropdown-item" asp-area="" asp-controller="ApartmentComplex" asp-action="Index">Manage Apartment Complexes</a>
 						</li>
 						<li class="nav-item">
-							<a class="dropdown-item" asp-area="" asp-controller="ApartmentUnit" asp-action="Index">Manage Apartment Units</a>
+							<a class="dropdown-item" asp-area="" asp-controller="ApartmentUnit" asp-action="IndexApartmentUnit">Manage Apartment Units</a>
 						</li>
 						<li class="nav-item">
 							<a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>

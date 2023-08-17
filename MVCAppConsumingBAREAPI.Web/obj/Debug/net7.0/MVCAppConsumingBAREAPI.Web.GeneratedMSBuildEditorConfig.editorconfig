@@ -32,6 +32,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBhcnRtZW50Q29tcGxleFxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/josem/source/Large Projects/MVC Application Consuming BARE API/MVC Application Consuming BARE API/MVCAppConsumingBAREAPI.Web/Views/ApartmentUnit/CreateApartmentUnit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBhcnRtZW50VW5pdFxDcmVhdGVBcGFydG1lbnRVbml0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josem/source/Large Projects/MVC Application Consuming BARE API/MVC Application Consuming BARE API/MVCAppConsumingBAREAPI.Web/Views/ApartmentUnit/DeleteApartmentUnit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBhcnRtZW50VW5pdFxEZWxldGVBcGFydG1lbnRVbml0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josem/source/Large Projects/MVC Application Consuming BARE API/MVC Application Consuming BARE API/MVCAppConsumingBAREAPI.Web/Views/ApartmentUnit/IndexApartmentUnit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBhcnRtZW50VW5pdFxJbmRleEFwYXJ0bWVudFVuaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josem/source/Large Projects/MVC Application Consuming BARE API/MVC Application Consuming BARE API/MVCAppConsumingBAREAPI.Web/Views/ApartmentUnit/UpdateApartmentUnit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBhcnRtZW50VW5pdFxVcGRhdGVBcGFydG1lbnRVbml0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/josem/source/Large Projects/MVC Application Consuming BARE API/MVC Application Consuming BARE API/MVCAppConsumingBAREAPI.Web/Views/Auth/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

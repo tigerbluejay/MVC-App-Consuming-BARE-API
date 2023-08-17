@@ -189,7 +189,7 @@ namespace BuenosAiresRealEstate.API.Controllers.v1
                 _response.IsSuccess = true;
                 _response.StatusCode = HttpStatusCode.NoContent;
 
-                return NoContent();
+                return Ok(_response);
 
 
             }
@@ -253,8 +253,11 @@ namespace BuenosAiresRealEstate.API.Controllers.v1
                 // Update the apartment unit in the database
                 await _dbApartmentUnit.UpdateAsync(existingApartmentUnit);
 
+                _response.IsSuccess = true;
+                _response.StatusCode = HttpStatusCode.NoContent;
+
                 _logger.LogInformation("Apartment Unit Updated.");
-                return NoContent();
+                return Ok(_response);
 
             }
             catch (Exception ex)

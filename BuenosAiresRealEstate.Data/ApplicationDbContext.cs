@@ -33,7 +33,7 @@ namespace BuenosAiresRealEstate.API.Data
                     Address = "Juncal 2736",
                     Amenities = "Pool, Playroom, Laundry Room",
                     Owner = "JM Iriarte",
-                    ImageUrl = Path.Combine("Images", "Juncal.jpg"),
+                    ImageUrl = Path.Combine("\\Images", "Juncal.jpg"),
                     CreatedDate = DateTime.Now
                 },
                 new ApartmentComplex
@@ -43,7 +43,7 @@ namespace BuenosAiresRealEstate.API.Data
                     Address = "Guise 1784",
                     Amenities = "Playroom, Laundry Room",
                     Owner = "JM Iriarte",
-                    ImageUrl = Path.Combine("Images", "Guise.jpg"),
+                    ImageUrl = Path.Combine("\\Images", "Guise.jpg"),
                     CreatedDate = DateTime.Now
                 },
                 new ApartmentComplex
@@ -53,7 +53,7 @@ namespace BuenosAiresRealEstate.API.Data
                     Address = "Beruti 3891",
                     Amenities = "Pool, Playroom",
                     Owner = "MH Jaunarena",
-                    ImageUrl = Path.Combine("Images", "Beruti.jpg"),
+                    ImageUrl = Path.Combine("\\Images", "Beruti.jpg"),
                     CreatedDate = DateTime.Now
                 },
                 new ApartmentComplex
@@ -63,7 +63,7 @@ namespace BuenosAiresRealEstate.API.Data
                     Address = "Paraguay 1800",
                     Amenities = "Pool, Laundry Room",
                     Owner = "MH Iriarte",
-                    ImageUrl = Path.Combine("Images", "Paraguay.jpg"),
+                    ImageUrl = Path.Combine("\\Images", "Paraguay.jpg"),
                     CreatedDate = DateTime.Now
                 },
                 new ApartmentComplex
@@ -73,7 +73,7 @@ namespace BuenosAiresRealEstate.API.Data
                     Address = "Alcorta 1900",
                     Amenities = "Pool",
                     Owner = "OA Iriarte",
-                    ImageUrl = Path.Combine("Images", "Alcorta.jpg"),
+                    ImageUrl = Path.Combine("\\Images", "Alcorta.jpg"),
                     CreatedDate = DateTime.Now
                 },
                 new ApartmentComplex
@@ -83,7 +83,7 @@ namespace BuenosAiresRealEstate.API.Data
                     Address = "Santa Fe 2000",
                     Amenities = "Playroom",
                     Owner = "HM Iriarte",
-                    ImageUrl = Path.Combine("Images", "SantaFe.jpg"),
+                    ImageUrl = Path.Combine("\\Images", "SantaFe.jpg"),
                     CreatedDate = DateTime.Now
                 },
                 new ApartmentComplex
@@ -93,7 +93,7 @@ namespace BuenosAiresRealEstate.API.Data
                     Address = "Mansilla 1000",
                     Amenities = "",
                     Owner = "OA Iriarte",
-                    ImageUrl = Path.Combine("Images", "Mansilla.jpg"),
+                    ImageUrl = Path.Combine("\\Images", "Mansilla.jpg"),
                     CreatedDate = DateTime.Now
                 });
 

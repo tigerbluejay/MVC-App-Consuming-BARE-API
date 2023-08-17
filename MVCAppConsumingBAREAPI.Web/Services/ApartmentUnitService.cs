@@ -20,7 +20,7 @@ namespace MVCAppConsumingBAREAPI.Web.Services
         {
             APIRequest apiRequest = new APIRequest() { 
                 ApiType = StaticDetails.ApiType.GET,
-                Url = apartmentUnitBaseUrl + "api/v1/ApartmentUnitAPI",
+                Url = apartmentUnitBaseUrl + "/api/v1/ApartmentUnitAPI",
                 // the magic string above is defined in the ApartmentUnitController of the API
                 Token = token
             };
@@ -28,12 +28,12 @@ namespace MVCAppConsumingBAREAPI.Web.Services
             return SendAsync<T>(apiRequest);
         }
 
-        public Task<T> GetByIdAsync<T>(int id, string token)
+        public Task<T> GetByIdAsync<T>(string id, string token)
         {
             APIRequest apiRequest = new APIRequest()
             {
                 ApiType = StaticDetails.ApiType.GET,
-                Url = apartmentUnitBaseUrl + "api/v1/ApartmentUnitAPI/" + id,
+                Url = apartmentUnitBaseUrl + "/api/v1/ApartmentUnitAPI/" + id,
                 Token = token
             };
 
@@ -44,7 +44,7 @@ namespace MVCAppConsumingBAREAPI.Web.Services
             APIRequest apiRequest = new APIRequest()
             {
                 ApiType = StaticDetails.ApiType.POST,
-                Url = apartmentUnitBaseUrl + "api/v1/ApartmentUnitAPI",
+                Url = apartmentUnitBaseUrl + "/api/v1/ApartmentUnitAPI",
                 Data = apartmentUnitCreateDTO,
                 Token = token
             };
@@ -52,12 +52,12 @@ namespace MVCAppConsumingBAREAPI.Web.Services
             return SendAsync<T>(apiRequest);
         }
 
-        public Task<T> DeleteAsync<T>(int id, string token)
+		public Task<T> DeleteAsync<T>(string id, string token)
         {
             APIRequest apiRequest = new APIRequest()
             {
                 ApiType = StaticDetails.ApiType.DELETE,
-                Url = apartmentUnitBaseUrl + "api/v1/ApartmentUnitAPI/" + id,
+                Url = apartmentUnitBaseUrl + "/api/v1/ApartmentUnitAPI/" + id,
                 Token = token
             };
 
@@ -72,7 +72,7 @@ namespace MVCAppConsumingBAREAPI.Web.Services
                 // here we pass the data
                 Data = apartmentUnitUpdateDTO,
                 // here we pass the url with the id
-                Url = apartmentUnitBaseUrl + "api/v1/ApartmentUnitAPI/" + apartmentUnitUpdateDTO.ApartmentUnitId,
+                Url = apartmentUnitBaseUrl + "/api/v1/ApartmentUnitAPI/" + apartmentUnitUpdateDTO.ApartmentUnitId,
                 Token = token
             };
 

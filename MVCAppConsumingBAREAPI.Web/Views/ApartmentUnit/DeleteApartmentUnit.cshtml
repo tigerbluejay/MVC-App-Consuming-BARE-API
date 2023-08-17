@@ -1,0 +1,89 @@
+﻿@model MVCAppConsumingBAREAPI.Models.ViewModels.ApartmentUnitDeleteVM
+
+<form asp-action="DeleteApartmentUnit">
+	<br />
+	<div class="container border p-3">
+		<h1 class="text-primary">Delete Apartment Unit</h1>
+		<hr />
+
+		<input hidden asp-for="ApartmentUnit.ApartmentUnitId"/>
+
+		<div class="row">
+			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+			<div class="col-3">
+				<label asp-for="ApartmentUnit.ApartmentUnitId" class="control-label pt-2" style="font-size:20px;"></label>
+			</div>
+			<div class="col-3 pb-3">
+				<input asp-for="@Model.ApartmentUnit.ApartmentUnitId" disabled class="form-control" />
+			</div>
+
+			<div class="col-3">
+				<label asp-for="ApartmentUnit.SquareMeters" class="control-label pt-2" style="font-size:20px;"></label>
+			</div>
+			<div class="col-3 pb-3">
+				<input asp-for="@Model.ApartmentUnit.SquareMeters" disabled class="form-control" />
+			</div>
+
+			<div class="col-3">
+				<label asp-for="ApartmentUnit.Rate" class="control-label pt-2" style="font-size:20px;"></label>
+			</div>
+			<div class="col-3 pb-3">
+				<input asp-for="@Model.ApartmentUnit.Rate" disabled class="form-control" />
+			</div>
+
+			<div class="col-3">
+				<label asp-for="ApartmentUnit.Capacity" class="control-label pt-2" style="font-size:20px;"></label>
+			</div>
+			<div class="col-3 pb-3">
+				<input asp-for="@Model.ApartmentUnit.Capacity" disabled class="form-control" />
+			</div>
+
+			<div class="col-3">
+				<label asp-for="ApartmentUnit.ImageUrl" class="control-label pt-2" style="font-size:20px;"></label>
+			</div>
+			<div class="col-3 pb-3">
+				<input asp-for="@Model.ApartmentUnit.ImageUrl" disabled class="form-control" />
+			</div>
+
+			<div class="col-6">
+			</div>
+
+			<div class="col-3">
+				<label asp-for="ApartmentUnit.ApartmentComplexId" class="control-label pt-2" style="font-size:20px;"></label>
+			</div>
+			<div class="col-8 pb-3">
+				<select asp-for="@Model.ApartmentUnit.ApartmentComplexId" disabled class="form-select" asp-items="@Model.ApartmentComplexList">
+					<option disabled selected>--Select Apartment Complex--</option>
+				</select>
+				<span asp-validation-for="ApartmentUnit.ApartmentComplexId" class="text-danger"></span>
+			</div>
+
+			<div class="col-3">
+				<label asp-for="ApartmentUnit.Details" class="control-label pt-2" style="font-size:20px;"></label>
+			</div>
+			<div class="col-3 pb-3">
+				<textarea asp-for="@Model.ApartmentUnit.Details" disabled class="form-control"></textarea>
+			</div>
+
+			<div class="col-6">
+			</div>
+
+
+			<div class="col-4 offset-2">
+				<input type="submit" value="Delete" class="btn btn-success form-control" />
+			</div>
+			<div class="col-4">
+				<a asp-controller="ApartmentUnit" asp-action="IndexApartmentUnit" class="btn-primary btn form-control">Back to Apartment Unit List</a>
+			</div>
+
+		</div>
+	</div>
+</form>
+
+@*all of the asp-validation-for validation are inside the following
+script, so we must include it at the end*@
+
+@section Scripts {
+	<partial name="_ValidationScriptsPartial" />
+}

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
+using MVCAppConsumingBAREAPI.Models;
 using MVCAppConsumingBAREAPI.Models.IdentityDTOs;
 using MVCAppConsumingBAREAPI.Models.Models;
 using MVCAppConsumingBAREAPI.Utilities;

@@ -16,7 +16,7 @@ namespace MVCAppConsumingBAREAPI.Models.DTOs
         public double Rate { get; set; }
         public int Capacity { get; set; }
         public string ImageUrl { get; set; }
-        public int Details { get; set; }
+        public string Details { get; set; }
 
         [Required]
         public int ApartmentComplexId { get; set; }

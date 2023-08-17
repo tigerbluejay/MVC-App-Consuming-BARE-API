@@ -132,8 +132,8 @@ namespace BuenosAiresRealEstate.API.Data.Migrations
                             Address = "Juncal 2736",
                             Amenities = "Pool, Playroom, Laundry Room",
                             ComplexName = "Juncal Suites",
-                            CreatedDate = new DateTime(2023, 8, 7, 14, 3, 12, 570, DateTimeKind.Local).AddTicks(6683),
-                            ImageUrl = "Images\\Juncal.jpg",
+                            CreatedDate = new DateTime(2023, 8, 17, 18, 26, 42, 43, DateTimeKind.Local).AddTicks(7110),
+                            ImageUrl = "\\Images\\Juncal.jpg",
                             Owner = "JM Iriarte",
                             UpdatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -143,8 +143,8 @@ namespace BuenosAiresRealEstate.API.Data.Migrations
                             Address = "Guise 1784",
                             Amenities = "Playroom, Laundry Room",
                             ComplexName = "Guise Suites",
-                            CreatedDate = new DateTime(2023, 8, 7, 14, 3, 12, 570, DateTimeKind.Local).AddTicks(6695),
-                            ImageUrl = "Images\\Guise.jpg",
+                            CreatedDate = new DateTime(2023, 8, 17, 18, 26, 42, 43, DateTimeKind.Local).AddTicks(7123),
+                            ImageUrl = "\\Images\\Guise.jpg",
                             Owner = "JM Iriarte",
                             UpdatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -154,8 +154,8 @@ namespace BuenosAiresRealEstate.API.Data.Migrations
                             Address = "Beruti 3891",
                             Amenities = "Pool, Playroom",
                             ComplexName = "Beruti Tower",
-                            CreatedDate = new DateTime(2023, 8, 7, 14, 3, 12, 570, DateTimeKind.Local).AddTicks(6698),
-                            ImageUrl = "Images\\Beruti.jpg",
+                            CreatedDate = new DateTime(2023, 8, 17, 18, 26, 42, 43, DateTimeKind.Local).AddTicks(7125),
+                            ImageUrl = "\\Images\\Beruti.jpg",
                             Owner = "MH Jaunarena",
                             UpdatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -165,8 +165,8 @@ namespace BuenosAiresRealEstate.API.Data.Migrations
                             Address = "Paraguay 1800",
                             Amenities = "Pool, Laundry Room",
                             ComplexName = "Paraguay Complex",
-                            CreatedDate = new DateTime(2023, 8, 7, 14, 3, 12, 570, DateTimeKind.Local).AddTicks(6699),
-                            ImageUrl = "Images\\Paraguay.jpg",
+                            CreatedDate = new DateTime(2023, 8, 17, 18, 26, 42, 43, DateTimeKind.Local).AddTicks(7126),
+                            ImageUrl = "\\Images\\Paraguay.jpg",
                             Owner = "MH Iriarte",
                             UpdatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -176,8 +176,8 @@ namespace BuenosAiresRealEstate.API.Data.Migrations
                             Address = "Alcorta 1900",
                             Amenities = "Pool",
                             ComplexName = "Alcorta Palace",
-                            CreatedDate = new DateTime(2023, 8, 7, 14, 3, 12, 570, DateTimeKind.Local).AddTicks(6701),
-                            ImageUrl = "Images\\Alcorta.jpg",
+                            CreatedDate = new DateTime(2023, 8, 17, 18, 26, 42, 43, DateTimeKind.Local).AddTicks(7129),
+                            ImageUrl = "\\Images\\Alcorta.jpg",
                             Owner = "OA Iriarte",
                             UpdatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -187,8 +187,8 @@ namespace BuenosAiresRealEstate.API.Data.Migrations
                             Address = "Santa Fe 2000",
                             Amenities = "Playroom",
                             ComplexName = "Santa Fe Apartments",
-                            CreatedDate = new DateTime(2023, 8, 7, 14, 3, 12, 570, DateTimeKind.Local).AddTicks(6703),
-                            ImageUrl = "Images\\SantaFe.jpg",
+                            CreatedDate = new DateTime(2023, 8, 17, 18, 26, 42, 43, DateTimeKind.Local).AddTicks(7130),
+                            ImageUrl = "\\Images\\SantaFe.jpg",
                             Owner = "HM Iriarte",
                             UpdatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -198,8 +198,8 @@ namespace BuenosAiresRealEstate.API.Data.Migrations
                             Address = "Mansilla 1000",
                             Amenities = "",
                             ComplexName = "Mansilla Suites",
-                            CreatedDate = new DateTime(2023, 8, 7, 14, 3, 12, 570, DateTimeKind.Local).AddTicks(6705),
-                            ImageUrl = "Images\\Mansilla.jpg",
+                            CreatedDate = new DateTime(2023, 8, 17, 18, 26, 42, 43, DateTimeKind.Local).AddTicks(7132),
+                            ImageUrl = "\\Images\\Mansilla.jpg",
                             Owner = "OA Iriarte",
                             UpdatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
@@ -219,8 +219,8 @@ namespace BuenosAiresRealEstate.API.Data.Migrations
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("Details")
-                        .HasColumnType("int");
+                    b.Property<string>("Details")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
