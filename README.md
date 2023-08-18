@@ -59,7 +59,7 @@ are parameters in the Controller methods and are passed on to the API Request. T
 
 The Apartment Unit Implementation Structure is a mirror to the Apartment Complex Implementation with some differences.
 
-We also have an ApartmentUnitController which interfaces with various views and communicated with the ApartmentUnitService which then sends the data to the Base Service to do the communicating with the API.
+We also have an ApartmentUnitController which interfaces with various views and communicates with the ApartmentUnitService which then sends the data to the Base Service to do the communicating with the API.
 
 The are some differences however. Because the views need to display information related to Apartment Complexes since there is a relationship between the tables, there is a special private method defined in the controller called GenerateList, which using LINQ Select statement Projects a List<ApartmentComplexDTO> which is deserialized from the API response the controller receives, into a List<SelectListItems> which are then saved into a View Model (which View Model will depend on the specific method we are working with). This is then saved into the corresponding View Model's ApartmentComplexList property to be displayed in the views. The specifics of the implementation can be seen in the Controller if further clarification were needed.
 
