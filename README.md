@@ -72,7 +72,7 @@ The ApartmentUnitService which ultimately communicates with the Base Service, se
 
 At the core of the Home Component is the Index view which retrieves the list of Apartment Complexes in the manner previously described: The ApartmentComplexService is invoked, which relies on the BaseService. And the response is processed when the response's Result is deserialized into an ApartmentComplexDTO list which is then pased to the Home View.
 
-Apart from the Home Component we have Shared Views like Layout, but also a Validation Scripts partial which continas jquery validation files on which the various views rely to do field validation.
+Apart from the Home Component we have Shared Views like Layout, but also a Validation Scripts partial which contains jquery validation files on which the various views rely to do field validation.
 
 #### In Sum
 
