@@ -1,8 +1,6 @@
 # MVC App Consuming Buenos Aires Real Estate (BARE) API
 
-An MVC application consuming the BARE API Service, able to perform CRUD operations on the data retrieved, and able to send data to the API.
-
-The application works with the Buenos Aires Real Estate API, which is a a real state API service exposing Apartment Unit Rental Information in the City of Buenos Aires.
+This project is an ASP.NET MVC application designed to interact with the Buenos Aires Real Estate (BARE) API—a service that exposes apartment unit rental information across the City of Buenos Aires. The application enables users to perform full CRUD operations on data retrieved from the API, as well as send new data back to the service. It serves as a practical example of consuming a RESTful API from a structured MVC frontend while handling real-world real estate data.
 
 #### Disclaimer
 
